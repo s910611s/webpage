@@ -1,0 +1,98 @@
+<!--<!DOCTYPE HTML PUBLIC “-//W3C//DTD HTML 4.01 Transitional//EN" “http://www.w3.org/TR/html4/loose.dtd">-->
+<!DOCTYPE HTML>
+<html><head>
+        <meta charset="utf-8">
+        <link rel="shortcut icon" href="/pagelogo.ico">
+        <link rel="stylesheet" href="styles.css">
+        <title>檔案清單</title>
+<script>
+	function sysopen() {
+    var passwd='';
+    passwd = prompt('請輸入密碼 [Hint：line4]','')
+    if (passwd != 'qwer' ){parent.location.href="../files/error"} else {parent.location.href="./sys/"}
+	}
+</script>
+</head>
+<body leftmargin="0" topmargin="0" body="" bgcolor="#ffffff">
+<div id="fileli"><base target="_new">
+
+<!--tr	列		td	欄 -->
+<!-- 最上層宣告tableb------------------------------------------------------------------------------------------------ -->
+<table width="600" height="115" align="center" valign="top" id="tableb">	<!-- License Define -->
+    <tbody><tr><td><a id="onopen" ondblclick="return sysopen()"><img align="center" src="/sys/theme/title.png"></a></td></tr></tbody>
+</table>
+<!-- ---------------------------------------------------------------------------------------------------------------- -->
+
+<!-- 最外層框架table1------------------------------------------------------------------------------------------------ -->
+<table width="100%" height="100%" id="table1">
+	<tr><td align="center" valign="top">
+<!-- 置中框架table2------------------------------------------------------------------------------------------------ -->
+		<table border="1" width="40%" height="100%" bgcolor="#99CCFF" id="table2">
+			<tr><td align="center" valign="top">
+<!-- 軟體說明框架table3------------------------------------------------------------------------------------------------ -->
+				<table border="0" width="600" id="table3">
+					<tr><td>
+						<p align="right">
+							<input type="button" value="返回頁面" onclick="window.location.href='./class/'">
+							<input type="button" value="進入目錄下載頁面" onclick="window.location.href='./list/'">
+						</p>
+					</td></tr>
+                </table>
+<!--	上傳區域str--------------------------------------------------------------------------------------------------------->
+				<div id="divcenter">
+					<div id="table31"><a href="javascript:(0)" onclick="window.location.href='./UploadSystem/jQuery-File-Upload/'">本站上傳系統</a></div>
+					<div id="table32">：</div>
+					<div id="table33"><a href="javascript:(0)" onclick="window.open('/files/UploadSystem/jQuery-File-Upload/uploads/');">本站上傳資料夾</a></div>
+					<div style="clear:both;"></div>
+				</div>
+				<div id="divcenter">
+					<div id="table31"><a href="javascript:(0)" onclick="window.open('https://script.google.com/macros/s/AKfycbxXkXIiTYvHq8K305qibgJD31nWD7ppsEihH_PDy14iebD8StM/exec');">Google上傳系統</a></div>
+					<div id="table32">：</div>
+					<div id="table33"><a href="javascript:(0)" onclick="window.open('https://drive.google.com/folderview?id=0ByRXxJOVrHEjMHhDWFdyNFU1YjQ&usp=sharing#list');">Google上傳資料夾</a></div>
+					<div style="clear:both;"></div>
+				</div>
+<hr color="#05b">
+<!--	上傳區域end--------------------------------------------------------------------------------------------------------->
+<!--	功能書籤str--------------------------------------------------------------------------------------------------------->
+				<div id="divcenter">
+					<div id="table31">功能書籤</div>
+					<div id="table32"></div>
+					<div id="table33">
+						[<a href="javascript:(function(){document.body.appendChild(document.createElement('script')).src='https://dl.dropbox.com/s/afzw5tmdn9m7os0/rpYouTube.js';})();">rpYouTube</a>]&nbsp;
+						[<a href="javascript:(function(){document.body.contentEditable = 'true'; document.designMode='on'; void 0})();">編輯網路上的網頁</a>]
+						[<a href="javascript:(function() { function R(a){ona = "on"+a; if(window.addEventListener) window.addEventListener(a, function (e) { for(var n=e.originalTarget; n; n=n.parentNode) n[ona]=null; }, true); window[ona]=null; document[ona]=null; if(document.body) document.body[ona]=null; } R("contextmenu"); R("click"); R("mousedown"); R("mouseup"); R("selectstart");})()">解除右鍵</a>]
+					</div>
+					<div style="clear:both;"></div>
+				</div>
+				<div id="divcenter">
+						<div id="table31">編輯器：</div>
+						<a href="data:text/html, &lt;title&gt;Ruby Editer&lt;/title&gt;&lt;style type=%22text/css%22&gt;#e{position:absolute;top:0;right:0;bottom:0;left:0;}&lt;/style&gt;&lt;div id=%22e%22&gt;&lt;/div&gt;&lt;script src=%22http://d1n0x3qji82z53.cloudfront.net/src-min-noconflict/ace.js%22 type=%22text/javascript%22 charset=%22utf-8%22&gt;&lt;/script&gt;&lt;script&gt;var e=ace.edit(%22e%22);e.setTheme(%22ace/theme/monokai%22);e.getSession().setMode(%22ace/mode/ruby%22);&lt;/script&gt;" target="_blank">Ruby</a>
+						／<a href="data:text/html, &lt;title&gt;Python Editer&lt;/title&gt;&lt;style type=%22text/css%22&gt;#e{position:absolute;top:0;right:0;bottom:0;left:0;}&lt;/style&gt;&lt;div id=%22e%22&gt;&lt;/div&gt;&lt;script src=%22http://d1n0x3qji82z53.cloudfront.net/src-min-noconflict/ace.js%22 type=%22text/javascript%22 charset=%22utf-8%22&gt;&lt;/script&gt;&lt;script&gt;var e=ace.edit(%22e%22);e.setTheme(%22ace/theme/monokai%22);e.getSession().setMode(%22ace/mode/python%22);&lt;/script&gt;" target="_blank">Python</a>
+						／<a href="data:text/html, &lt;title&gt;Javascript Editer&lt;/title&gt;&lt;style type=%22text/css%22&gt;#e{position:absolute;top:0;right:0;bottom:0;left:0;}&lt;/style&gt;&lt;div id=%22e%22&gt;&lt;/div&gt;&lt;script src=%22http://d1n0x3qji82z53.cloudfront.net/src-min-noconflict/ace.js%22 type=%22text/javascript%22 charset=%22utf-8%22&gt;&lt;/script&gt;&lt;script&gt;var e=ace.edit(%22e%22);e.setTheme(%22ace/theme/monokai%22);e.getSession().setMode(%22ace/mode/javascript%22);&lt;/script&gt;" target="_blank">Javascript</a> 
+						／<a href="data:text/html, &lt;title&gt;Java Editer&lt;/title&gt;&lt;style type=%22text/css%22&gt;#e{position:absolute;top:0;right:0;bottom:0;left:0;}&lt;/style&gt;&lt;div id=%22e%22&gt;&lt;/div&gt;&lt;script src=%22http://d1n0x3qji82z53.cloudfront.net/src-min-noconflict/ace.js%22 type=%22text/javascript%22 charset=%22utf-8%22&gt;&lt;/script&gt;&lt;script&gt;var e=ace.edit(%22e%22);e.setTheme(%22ace/theme/monokai%22);e.getSession().setMode(%22ace/mode/java%22);&lt;/script&gt;" target="_blank">Java</a> 
+						／<a href="data:text/html, &lt;title&gt;C/C++ Editer&lt;/title&gt;&lt;style type=%22text/css%22&gt;#e{position:absolute;top:0;right:0;bottom:0;left:0;}&lt;/style&gt;&lt;div id=%22e%22&gt;&lt;/div&gt;&lt;script src=%22http://d1n0x3qji82z53.cloudfront.net/src-min-noconflict/ace.js%22 type=%22text/javascript%22 charset=%22utf-8%22&gt;&lt;/script&gt;&lt;script&gt;var e=ace.edit(%22e%22);e.setTheme(%22ace/theme/monokai%22);e.getSession().setMode(%22ace/mode/c_cpp%22);&lt;/script&gt;" target="_blank">C/C++</a>
+						／<a href="data:text/html, &lt;title&gt;PHP Editer&lt;/title&gt;&lt;style type=%22text/css%22&gt;#e{position:absolute;top:0;right:0;bottom:0;left:0;}&lt;/style&gt;&lt;div id=%22e%22&gt;&lt;/div&gt;&lt;script src=%22http://d1n0x3qji82z53.cloudfront.net/src-min-noconflict/ace.js%22 type=%22text/javascript%22 charset=%22utf-8%22&gt;&lt;/script&gt;&lt;script&gt;var e=ace.edit(%22e%22);e.setTheme(%22ace/theme/monokai%22);e.getSession().setMode(%22ace/mode/php%22);&lt;/script&gt;" target="_blank">PHP</a> 
+					<div style="clear:both;"></div>
+				</div>
+<hr color="#05b">
+<!--	功能書籤end--------------------------------------------------------------------------------------------------------->
+				<div id="divcenter">
+					<div id="table31"><a href="javascript:(0)" onclick="window.location.href=''"></a></div>
+					<div id="table32"></div>
+					<div id="table33"></div>
+					<div style="clear:both;"></div>
+				</div>
+<!-- 軟體說明框架table3------------------------------------------------------------------------------------------------ -->
+				</div></td>
+			</tr>
+		</table>
+<!-- 置中框架table2------------------------------------------------------------------------------------------------ -->
+		</td>
+	</tr>
+</table>
+<!-- 最外層框架table1------------------------------------------------------------------------------------------------ -->
+</div>
+<!--紀錄IP-->
+<div style="display:none" id="ip"><iframe src=/ip.php></iframe></div>
+<!---------->
+</body></html>
